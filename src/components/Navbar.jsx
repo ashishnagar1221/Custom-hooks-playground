@@ -7,6 +7,7 @@ const Navbar = () => {
     { to: "auth", label: "Auth" },
     { to: "/form", label: "Form" },
     { to: "/ws", label: "Web Socket" },
+    { to: "/debounce", label: "Debounce" },
   ];
   return (
     <nav className="bg-blue-600 text-white px-6 py-4 flex justify-between items-center">

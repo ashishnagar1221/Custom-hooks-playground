@@ -6,6 +6,7 @@ import FetchDemo from "./components/pages/FetchDemo";
 import FormDemo from "./components/pages/FormDemo";
 import WebsocketDemo from "./components/pages/WebsocketDemo";
 import AuthDemo from "./components/pages/AuthDemo";
+import DebounceDemo from "./components/pages/DebounceDemo";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/auth" element={<AuthDemo />} />
           <Route path="/form" element={<FormDemo />} />
           <Route path="/ws" element={<WebsocketDemo />} />
+          <Route path="/debounce" element={<DebounceDemo/>}/>
         </Routes>
       </main>
     </Router>
