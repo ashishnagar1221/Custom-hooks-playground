@@ -7,6 +7,8 @@ import FormDemo from "./components/pages/FormDemo";
 import WebsocketDemo from "./components/pages/WebsocketDemo";
 import AuthDemo from "./components/pages/AuthDemo";
 import DebounceDemo from "./components/pages/DebounceDemo";
+import ThrottleDemo from "./components/pages/ThrottleDemo";
+import OnlineStatusDemo from "./components/pages/OnlineStatusDemo";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/form" element={<FormDemo />} />
           <Route path="/ws" element={<WebsocketDemo />} />
           <Route path="/debounce" element={<DebounceDemo/>}/>
+          <Route path="/throttle" element={<ThrottleDemo/>}/>
+          <Route  path="/online-status" element={<OnlineStatusDemo/>}/>
         </Routes>
       </main>
     </Router>

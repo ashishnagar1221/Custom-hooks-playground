@@ -8,11 +8,13 @@ const Navbar = () => {
     { to: "/form", label: "Form" },
     { to: "/ws", label: "Web Socket" },
     { to: "/debounce", label: "Debounce" },
+    { to: "/throttle", label: "Throttle" },
+    { to: "/online-status", label: "Online Status" },
   ];
   return (
     <nav className="bg-blue-600 text-white px-6 py-4 flex justify-between items-center">
       <div className="flex item-center gap-3">
-        <img src="/images/hooks-icon.png" alt="logo" className="w-8 h-8" />
+        <img src="src\assets\react.svg" alt="logo" className="w-8 h-8" />
         <div className="text-lg font-bold">Hooks Playground</div>
       </div>
       <div className="">
